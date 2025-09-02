@@ -1,0 +1,68 @@
+/* Base styles */
+body {
+  background-color: #dedede;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Layout default = mobile */
+main div {
+  width: 90%;
+  margin: 10px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+main div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Tablet style (class override) */
+.tablet div {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2%;
+}
+
+.tablet div img {
+  max-height: 30vh;
+  width: auto;
+}
+
+/* Large screen style (class override) */
+.large div {
+  width: 30%;
+  display: inline-block;
+  margin: 1.5%;
+}
